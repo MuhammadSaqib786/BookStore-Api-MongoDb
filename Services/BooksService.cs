@@ -21,6 +21,7 @@ namespace BookStore_Api_MongoDb.Services
                 bookStoreDatabaseSettings.Value.BooksCollectionName);
         }
 
+        //get all books
         public async Task<List<Book>> GetAsync() =>
             await _booksCollection.Find(_ => true).ToListAsync();
 
