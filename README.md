@@ -12,7 +12,7 @@ A RESTful API built with ASP.NET Core WebAPI for managing a bookstore's inventor
 
 ### Prerequisites
 
-- .NET Core SDK (version specified in your project)
+- .NET Core SDK (version 6)
 - MongoDB server (local or cloud)
 
 
